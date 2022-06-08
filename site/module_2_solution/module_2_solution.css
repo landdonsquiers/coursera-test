@@ -1,0 +1,95 @@
+html {
+    background-color: rgb(154, 170, 201);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+div {position: relative;}
+
+#no-border{
+    border: none;
+}
+
+#p1 {
+    background-color: #692D94;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+#p2 {
+    background-color: #A020F0;
+    width: 120px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+#p3 {
+    background-color: #CE8CF8;
+    width: 120px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+div > * {
+    padding: 8px;
+    margin: 15px;
+    background-color: rgb(195, 214, 235);
+    border: 1px solid rgb(5, 3, 8);
+    box-sizing: border-box;
+}
+
+@media (min-width: 767px) {
+    .col-sm-12{
+        width: 90%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        width: 45%;
+        float: left;
+    }
+
+    .col-md-12{
+        width: 94%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        width: 30%;
+        float: left;
+    }
+}
+
