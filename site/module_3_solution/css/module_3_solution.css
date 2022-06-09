@@ -8,14 +8,22 @@
 	padding: 0;
 }
 
-.navbar-toggle:hover {
-    background-color: rgba(240, 248, 255, 0.293);
+.nav{
+	margin: 0;
+	padding: 0;
 }
 
 .navbar{
 	border-radius: 0px;
 	background-color: rgba(6, 50, 180, 0.604);
     border: 6px solid rgba(0, 0, 0, 0.175);
+}
+
+.navbar-nav{
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-brand{
@@ -28,35 +36,27 @@
 	color: rgb(104, 82, 148);
 }
 
-.nav{
-	margin: 0;
-	padding: 0;
-}
-
-.navbar-nav{
-  font-size: 30px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
 .navbar-toggle{
 	border: 2px solid white;
 	margin-right: 30px;
+}
+
+.navbar-toggle:hover {
+    background-color: rgba(240, 248, 255, 0.293);
 }
 
 .icon-bar{
 	background-color: rgb(210, 201, 249);
 }
 
-.main-title{
+.head-title{
   margin-bottom: 20px;
   text-align: center;
   color: #171b8ea6;
   font-size: 60px;
 }
 
-li{
+ul{
 	width: 100%;
 }
 
@@ -86,7 +86,6 @@ li{
 	color: black;
 	background-color: rgba(130, 131, 235, 0.2);
     border: 2px solid rgba(0, 0, 0, 0.088);
-	font-family: "Comic Sans MS", cursive, sans-serif;
 	padding: 15px;
 }
 
