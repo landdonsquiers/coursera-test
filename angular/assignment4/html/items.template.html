@@ -1,0 +1,16 @@
+<table class="table table-striped table-bordered">
+		<tr>
+			<th class="text-center">ID</th>
+			<th class="text-center">Short Name</th>
+            <th class="text-center">Name</th>
+			<th class="text-center">Description</th>
+            <th class="text-center">Price large</th>
+		</tr>
+    	<tr ng-repeat="category in $ctrl.items">
+			<th class="text-center">{{category.id}}</th>
+			<td class="text-center">{{category.short_name}}</td>
+            <td class="text-center">{{category.name}}</td>
+			<td class="text-center">{{category.description}}</td>
+            <td class="text-center">{{category.price_large}}</td>
+		</tr>
+</table>
