@@ -50,3 +50,10 @@ input[type="text"] {
     transform: rotate(360deg);
   }
 }
+input.search{
+  width:300px;
+}
+h3.error{
+  margin: 15px;
+  padding: 0px;
+}
